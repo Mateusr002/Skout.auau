@@ -1,0 +1,26 @@
+package br.com.myskout.skout;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+
+public class SplashActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
+
+        //instanciando uma classe de processo
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                //Abrindo janela no Inner activity
+                startActivity(new Intent(getApplicationContext(), InnerActivity.class));
+            }
+        }, 300);
+    }
+}

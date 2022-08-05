@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Skout</string>
+    <string name="componente_a">Componente A</string>
+    <string name="componente_b">componente B </string>
+    <string name="componente_c">componente C</string>
+    <string name="componente_d">componente D</string>
+    <string name="insira_seu_usu_rio">Insira seu usuário</string>
+    <string name="insira_sua_senha">Insira sua senha</string>
+    <string name="imagem_de_casa">Imagem de Casa</string>
+</resources>
